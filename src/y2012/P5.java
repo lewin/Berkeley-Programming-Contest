@@ -1,7 +1,8 @@
 package y2012;
 import java.util.*;
 import java.io.*;
-
+// ugh the answer to this seems so messy...
+// this code doesn't solve the problem
 class P5 {
 	public static final int MAXN = 400;
 	

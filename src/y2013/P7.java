@@ -29,6 +29,9 @@ class P7 {
                     for (int k = 0; k <= lens[2]; k++)
                         Arrays.fill (dp[i][j][k], -1);
             
+            // whoops forgot a base case here during live contest. guess test cases were weak. Got lucky here
+            dp[0][0][0][0] = 0;
+            
             out.printf ("Deal %d: First player wins %d out of %d\n", test++, 
                     dp(lens[0], lens[1], lens[2], lens[3], true), sum);
         }
